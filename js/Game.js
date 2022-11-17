@@ -109,17 +109,11 @@ class Game {
 
          this.handlePowerCoins(index);
          this.hamdleFuels(index);
-
         }
-                  
-        
-
       }
 
       // manipulando eventos de teclado
       this.handlePlayerControls();
-
-
       drawSprites();
     }
   }

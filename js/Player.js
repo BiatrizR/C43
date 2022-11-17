@@ -8,10 +8,8 @@ class Player {
     this.rank = 0;
     this.score = 0;
       //1. chamar as variaveis combustivel aqui 
-      this.fuel = 185;
+    this.fuel = 185;
 
-      this.score=0;
-      this.rank=0;
   
   }
 
@@ -29,7 +27,8 @@ class Player {
       positionX: this.positionX,
       positionY: this.positionY,
       //2.adicionar rank e score
-    
+      rank: this.rank,
+      score: this.score
     });
   }
 
